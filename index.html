@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="icon" href="assets/favicon-32x32.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -24,9 +25,11 @@
             podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
             more!
           </p>
-          <input type="email" id="user-email" placeholder="Email address" />
-          <button>Request Access</button>
-          <div>
+          <form action="" method="post">
+            <input type="email" id="user-email" placeholder="Email address" name="email" required/>
+            <button class="btn">Request Access</button>
+          </form>
+          <div class="logos-container">
             <img src="assets/desktop/spotify.svg" alt="spotify-logo" class="logos"/>
             <img src="assets/desktop/apple-podcast.svg" alt="apple-podcast-logo" class="logos"/>
             <img

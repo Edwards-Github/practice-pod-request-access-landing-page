@@ -100,3 +100,84 @@ button {
   height: 22px;
   margin-right: 20px;
 }
+
+@media (max-width: 375px) {
+  /* Allow the body to scroll normally instead of forcing center-centering */
+  .body {
+    height: auto;
+    padding: 20px;
+    align-items: flex-start;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse; /* This flips the order, putting the image on top! */
+    width: 100%;
+    padding: 5px;
+  }
+
+  .left-container {
+    width: 100%; /* Stop forcing 500px */
+  }
+
+  /* Bring the text container back into the normal grid/flex flow */
+  .text-container {
+    position: relative;
+    padding-right: 0;
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  /* Make sure paragraphs and images scale down to fit the screen */
+  p {
+    width: 100%;
+    font-size: calc(var(--paragraph-font-size) * 0.85);
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  h1,
+  h2 {
+    font-size: calc(var(--header-font-size) * 0.75);
+  }
+
+  .logos {
+    width: 55px;
+  }
+
+  .logos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .host-image {
+    width: 100%;
+    height: auto; /* Reset the 180px right padding */
+    margin-left: 0; /* Clear desktop negative margin */
+    margin-bottom: 15px;
+  }
+
+  .pod-logo {
+    margin-bottom: 0;
+  }
+
+  #user-email {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  /* Fix the massive input size */
+  input {
+    width: 100%;
+    padding: 15px 20px; /* Reset the 180px right padding */
+  }
+
+  button {
+    width: 100%;
+    margin: 0; /* Clear desktop negative margins */
+    margin-bottom: 5px;
+  }
+}
