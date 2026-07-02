@@ -1,3 +1,4 @@
+<img width="2548" height="1312" alt="podcast" src="https://github.com/user-attachments/assets/c1737b4f-8317-4deb-be1a-8240fd01642b" />
 # Frontend Mentor - Pod request access landing page solution
 
 This is a solution to the [Pod request access landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
