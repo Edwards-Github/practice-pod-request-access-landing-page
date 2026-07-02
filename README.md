@@ -12,7 +12,7 @@ This is a solution to the [Pod request access landing page challenge on Frontend
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Suggested areas of improvement] (#suggested-areas-of-improvement)
+  - [Suggested areas of improvement](#suggested-areas-of-improvement)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
