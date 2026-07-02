@@ -103,9 +103,9 @@ button {
 
 @media (max-width: 375px) {
   /* Allow the body to scroll normally instead of forcing center-centering */
-  .body {
+  body {
     height: auto;
-    padding: 20px;
+    padding: 5px;
     align-items: flex-start;
   }
 
