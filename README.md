@@ -1,4 +1,4 @@
-<img width="2548" height="1312" alt="podcast" src="https://github.com/user-attachments/assets/c1737b4f-8317-4deb-be1a-8240fd01642b" />
+<img width="963" height="800" alt="areas-of-improvement" src="https://github.com/user-attachments/assets/474317af-0162-4ac8-bf0d-6e7345f45d8a" />
 # Frontend Mentor - Pod request access landing page solution
 
 This is a solution to the [Pod request access landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -13,11 +13,10 @@ This is a solution to the [Pod request access landing page challenge on Frontend
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Suggested areas of improvement] (#suggested-areas-of-improvement)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -34,6 +33,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+<img width="2548" height="1312" alt="podcast" src="https://github.com/user-attachments/assets/c1737b4f-8317-4deb-be1a-8240fd01642b" />
 
 
 ### Links
@@ -76,14 +76,16 @@ Reset Content Spacing: We stripped away the giant 180px padding on the input and
 
 ### Continued development
 
-I want to work on a mobile first view then move onto the desktop view.
+I want to work on mobile-first layout and convert redundant CSS to variables.
+
+### Suggested areas of improvement
 
 ### AI Collaboration
 
 Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
 
 - What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)? Gemini
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)? Debugging and learning new properties like validity, validity.valueMissing, and validity.typeMismatch.
+- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)? Debugging and learning new properties like validity, validity.valueMissing, and validity.typeMismatch. I learned that I could use valadity.valueMissing to check if email was missing and validity.typeMismatch if the email is not valid.
 
 ## Author
 
