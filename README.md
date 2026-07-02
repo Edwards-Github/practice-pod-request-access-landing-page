@@ -1,4 +1,3 @@
-<img width="963" height="800" alt="areas-of-improvement" src="https://github.com/user-attachments/assets/474317af-0162-4ac8-bf0d-6e7345f45d8a" />
 # Frontend Mentor - Pod request access landing page solution
 
 This is a solution to the [Pod request access landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -79,6 +78,8 @@ Reset Content Spacing: We stripped away the giant 180px padding on the input and
 I want to work on mobile-first layout and convert redundant CSS to variables.
 
 ### Suggested areas of improvement
+
+<img width="963" height="800" alt="areas-of-improvement" src="https://github.com/user-attachments/assets/474317af-0162-4ac8-bf0d-6e7345f45d8a" />
 
 ### AI Collaboration
 
